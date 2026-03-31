@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flag{
+    position: relative;
+    width: 600px;
+    height: 300px;
+}
+
+
+.stripe{
+    height: 33.33%;
+    width: 100%;
+}
+
+.red{
+    background-color: #d21034;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.black{
+    background-color: #000000;
+}
+
+
+.triangle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 250px solid #007a3d;
+}
